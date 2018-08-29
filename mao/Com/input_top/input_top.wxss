@@ -1,0 +1,28 @@
+/* Com/input_top/input_top.wxss */
+.top_wrap{
+  background-color: #F5F5F5;
+  padding: 20rpx 0;
+}
+.top_left{
+  display: inline-block;
+  font-size: 30rpx;
+  padding: 0 20rpx;
+  width: 15%;
+  vertical-align: top;
+  line-height: 27.5px;
+  color: rgb(116, 116, 116);
+}
+.my_text{
+  color: #B0B0B0;
+}
+.top_right{
+  background-color: white;
+  display: inline-block;
+  border-radius: 10rpx;
+  width: 75%;
+  font-size: 30rpx;
+  text-align: center;
+  vertical-align: top;
+  line-height: 27.5px;
+  
+}

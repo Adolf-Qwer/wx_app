@@ -1,0 +1,5 @@
+<!--pages/maoyan/maoyan.wxml-->
+<input_top></input_top>
+<lbt></lbt>
+<xialakuang bind:closeCity="closeCity" Json="{{Json}}"></xialakuang>
+<wrap></wrap>

@@ -1,0 +1,7 @@
+<!--Com/com_ss/com_ss.wxml-->
+<view class='top_wrap'>
+<view class='top_right'>
+<input  placeholder="🔍找影院" ></input>
+</view>
+<navigator bindtap='click' class='top_left'>取消</navigator>
+</view>

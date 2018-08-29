@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/maoyan/maoyan",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/ss/ss"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "影院",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "red",
+    "backgroundColor": "white",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/maoyan/maoyan",
+        "text": "电影",
+        "iconPath": "image/film.png",
+        "selectedIconPath": "image/selectfilm.png"
+      },
+      {
+        "pagePath": "pages/maoyan/maoyan",
+        "text": "影院",
+        "iconPath": "image/cinema.png",
+        "selectedIconPath": "image/selectcinema.png"
+      },
+      {
+        "pagePath": "pages/maoyan/maoyan",
+        "text": "演出",
+        "iconPath": "image/ticket.png",
+        "selectedIconPath": "image/selectticket.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+<!--Com/input_top/input_top.wxml-->
+<view class='top_wrap'>
+<view class='top_left'>{{City}}<text class='my_text'>▼</text></view>
+<view class='top_right'>
+<navigator url="../../pages/ss/ss">
+<input  placeholder="🔍搜影院" disabled='input'></input>
+</navigator>
+</view>
+</view>
+  

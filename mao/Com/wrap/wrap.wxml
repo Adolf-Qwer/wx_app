@@ -1,0 +1,37 @@
+<!--Com/wrap/wrap.wxml-->
+<view class='wrap'>
+<view wx:for="{{dalian.cinemas}}" class='wx_for'>
+<view>
+  <view class='top_1'>
+  {{item.nm}}
+  </view>
+  <view class='top_text'>
+  <text>{{item.sellPrice}}</text>
+  <text class='font_1'>元起</text>
+  </view>
+</view>
+
+
+
+<view class='over'>
+<text class='over_left'>{{item.addr}}</text>
+<text class='over_right'>{{item.distance}}</text>
+</view>
+
+<view class='zko'>
+{{item.tag.vipTag}}
+</view>
+
+<view wx:for="{{item.tag.hallTypeVOList}}" class='hall'>
+{{item.name}}
+</view>
+
+
+<view class='abc'>
+<text class='hui'>惠</text> <text class='dashixiong'>大师兄等3部影片特惠</text>
+</view>
+<view><text class='ka' wx:if="{{item.promotion.cardPromotionTag}} !=={} ">卡</text><text class='dajia'>{{item.promotion.cardPromotionTag}}</text></view>
+</view>
+
+</view>
+

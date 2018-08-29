@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "input_top": "../../Com/input_top/input_top",
+    "lbt":"../../Com/lbt/lbt",
+    "xialakuang":"../../Com/xialakuang/xialakuang",
+    "wrap":"../../Com/wrap/wrap"
+  }
+}
